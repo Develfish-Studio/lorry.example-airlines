@@ -1,1 +1,28 @@
 name: lorry.example-airlines
+displayName: Airlines
+description: Example of an application generated from a PostgreSQL database schema
+author: Igor Pavlenko
+publisher: Igor Pavlenko
+license: DEVELFISH-1.0-or-later OR GPL-3.0-or-later
+homepage: https://github.com/Develfish-Studio/lorry.example-airlines
+version: 0.0.0
+keywords:
+- compose
+- spring
+- postgres
+- vue
+categories:
+- example
+dependencies:
+  lorry.utils:
+    uri: git@github.com:Develfish-Studio/lorry.utils.git
+  lorry.preset-web:
+    uri: git@github.com:Develfish-Studio/lorry.preset-web.git
+  lorry.project:
+    uri: git@github.com:Develfish-Studio/lorry.project.git
+  lorry.project-compose:
+    uri: git@github.com:Develfish-Studio/lorry.project-compose.git
+  lorry.project-spring:
+    uri: git@github.com:Develfish-Studio/lorry.project-spring.git
+  lorry.project-vue:
+    uri: git@github.com:Develfish-Studio/lorry.project-vue.git
