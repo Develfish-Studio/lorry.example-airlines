@@ -16,6 +16,8 @@ categories:
 dependencies:
   lorry.utils:
     uri: git@github.com:Develfish-Studio/lorry.utils.git
+  lorry.utils-usql:
+    uri: git@github.com:Develfish-Studio/lorry.utils-usql.git
   lorry.preset-web:
     uri: git@github.com:Develfish-Studio/lorry.preset-web.git
   lorry.project:

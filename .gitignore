@@ -6,3 +6,12 @@
 
 # Root luau config file
 /.luaurc
+
+# Auto generated code
+/@actions/*
+/@collections/*
+/store_starter
+/store_backend
+/store_migrate
+/store_admin_ui
+!/@actions/setup.luau

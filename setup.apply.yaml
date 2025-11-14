@@ -1,0 +1,44 @@
+# lorry: $schema=lorry://lorry.preset-web/@scrolls/setup/variables.schema.json
+
+project:
+  name: Airlines
+database:
+  type: postgres
+  connection-string: airlines
+  schema-blacklist:
+    - "[%w_]+%.information_schema"
+    - "[%w_]+%.pg_catalog"
+backend:
+  name: backend
+  type: sbt-maven-java17
+  features:
+    kafka-messaging: true
+    websocket-messaging: true
+    minio-integration: true
+    keycloak-integration: true
+  namespace: com.example.app
+  version: 1.0.0-SNAPHOT
+admin-ui:
+  name: admin_ui
+  type: vite-vue
+  features:
+    kafka-messaging: true
+    websocket-messaging: true
+migrate:
+  name: migrate
+  type: liquibase
+compose:
+  name: compose
+  features:
+    haproxy: true
+    kafka: true
+    kafka-ui: true
+    keycloak: true
+    minio: true
+    minio-cli: true
+    postgres: true
+    pgadmin: true
+    mysql: true
+    phpmyadmin: true
+    swagger-ui: true
+    keycloak-cli: true
