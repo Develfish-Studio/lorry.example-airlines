@@ -10,8 +10,9 @@
 # Auto generated code
 /@actions/*
 /@collections/*
-/store_starter
-/store_backend
-/store_migrate
-/store_admin_ui
+/compose
+/backend
+/migrate
+/admin_ui
+
 !/@actions/setup.luau
