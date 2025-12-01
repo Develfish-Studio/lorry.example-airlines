@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lorry_modules/lorry.preset-web" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lorry_modules/lorry.project-compose" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lorry_modules/lorry.project-spring" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lorry_modules/lorry.project-vue" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lorry_modules/lorry.testing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lorry_modules/lorry.utils" vcs="Git" />
+  </component>
+</project>
