@@ -10,7 +10,7 @@ database:
     - "[%w_]+%.pg_catalog"
 backend:
   name: backend
-  type: sbt-maven-java17
+  type: sbt-maven
   features:
     kafka-messaging: true
     websocket-messaging: true
@@ -24,6 +24,8 @@ admin-ui:
   features:
     kafka-messaging: true
     websocket-messaging: true
+  namespace: com.example.app
+  version: 1.0.0-SNAPHOT
 migrate:
   name: migrate
   type: liquibase
